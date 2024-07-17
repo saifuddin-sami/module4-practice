@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Practice Task 2 </title>  
+    <link rel="stylesheet" href="pt3.css">  
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+        form {
+            display: grid;
+            justify-content: center;
+        }
+        fieldset {
+            width: auto;
+            border-radius: 12px;
+            padding: 15px;
+        }
+        label, input, select, textarea {
+            margin-top: 5px;
+        }
+        legend {
+            font-weight: normal;
+            font-size: 20px;
+        }
+        textarea {
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="pt1.html"> Task 1 </a></li>
+                <li><a href="pt2.html"> Task 2 </a></li>
+                <li><a href="pt3.html"> Task 3 </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1> Storytelling Contest Feedback: </h1>
+        </header>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>
+                        Feedback Form
+                    </legend>
+                    <label for="name">
+                        Name: <br>
+                        <input type="text" name="name" id="name">
+                    </label> <br>
+                    <label for="date">
+                        Date: <br>
+                        <input type="date" name="date" id="date">
+                    </label> <br>
+                    <label for="story">
+                        Your Story: <br>
+                        <textarea name="story" id="story" style="width: auto; height: 100px;" placeholder="Write Your Story"></textarea>
+                    </label> <br>
+                    <label for="Rate">
+                        Rate The Story: 
+                        <select id="Rate">
+                            <option> Good </option>
+                            <option> Excellent </option>
+                            <option> Etc </option>
+                        </select>
+                    </label> <br> <br>
+                    <label for="submit">
+                        <input type="submit" name="" id="submit">
+                    </label> 
+                    <label for="reset">
+                        <input type="reset" name="" id="reset">
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+    </main> <br> <hr style="width: 300px;">
+    <footer style="text-align: center;">
+        <p> <small> &copy; 2024 || Saifuddin Mahmud Sami </small> </p>
+    </footer>
+</body>
+</html>

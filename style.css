@@ -1,0 +1,17 @@
+figure .img { 
+    display: flex;
+    justify-content: left;
+    margin-left: -40px;
+}
+figcaption {
+    margin-left: -40px;
+}
+figcaption > a {
+    color: rgb(39, 164, 247);
+}
+.head-section {
+    font-weight: 500;
+}
+footer {
+    text-align: center;
+}
